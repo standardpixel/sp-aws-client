@@ -1,0 +1,27 @@
+{
+  "name": "sp-aws-client",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": "Eric Gelinas about@standardpixel.com",
+  "description": "A client for the AWS node SDK",
+  "contributors": [ 
+    {
+      "name": "Eric Gelinas",
+      "email": "about@standardpixel.com"
+    } 
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/standardpixel/sp-aws-client"
+  },
+  "dependencies" : {
+	"aws-sdk"   : "*",
+	"node-uuid" : "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
